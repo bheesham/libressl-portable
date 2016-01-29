@@ -66,6 +66,7 @@ tests/pbkdf2*
 tests/*.pem
 tests/testssl
 tests/*.txt
+tests/tls_ext_alpn.c
 !tests/optionstest.c
 !tests/*.test
 
@@ -73,6 +74,7 @@ tests/*.txt
 TAGS
 
 autom4te.cache
+build
 
 # Libtool adds these, at least sometimes
 INSTALL
